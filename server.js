@@ -18,7 +18,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('about.hbs', {
     pageTitle: 'Home page',
-    welcomeMessage: 'Welcome to Jeevandeep hospital, Please contact "Dr. Sunil Yadav" on "7977567854"',
+    welcomeMessage: 'Home Page',
   });
 });
 

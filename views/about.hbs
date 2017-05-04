@@ -1,13 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Jeevandeep Hospital - Taloja - {{pageTitle}}</title>
-</head>
-<body>
-  {{> header}}
-  <h1>{{welcomeMessage}}</h1>
-  <h1>Currently site is under maintenance, inconvenience regretted</h1>
-  {{> footer}}
-</body>
-</html>
+{{> header}}
+<style>
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+</style>
+<div class="container-fluid">
+  <div class="breadcrum well well-sm">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+          <h4 class="text-info">{{welcomeMessage}}</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="well">
+        <h3 style="line-height:20%;"><i class="fa fa-home fa-1x" style="line-height:6%;color:#339966"></i> Adress:</h3>
+        <p style="margin-top:6%;line-height:35%">Jeevandeep Hospital Taloja</p>
+        <br />
+        <br />
+        <h3 style="line-height:20%;"><i class="fa fa-envelope fa-1x" style="line-height:6%;color:#339966"></i> E-Mail:</h3>
+        <p style="margin-top:6%;line-height:35%">info@jeevandeep-hostpital.com</p>
+        <br />
+        <br />
+        <h3 style="line-height:20%;"><i class="fa fa-user fa-1x" style="line-height:6%;color:#339966"></i>Contact</h3>
+        <p style="margin-top:6%;line-height:35%">Dr. Sunil Yadav : +91 7977567854</p>
+        <br />
+        <br />
+        <h3 style="line-height:20%;"><i class="fa fa-yelp fa-1x" style="line-height:6%;color:#339966"></i> jeevandeep-hostpital.com</h3>
+        <p style="margin-top:6%;line-height:35%"><a href="jeevandeep-hospital.com">jeevandeep-hospital.com</a></p>
+      </div>
+    </div>
+    <div class="col-sm-6">
+    </div>
+  </div>
+</div>
+{{> footer}}
